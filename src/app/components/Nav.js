@@ -12,7 +12,7 @@ const Nav = () => {
                         className='text-2xl font-bold'
                     >SafetySentry</h1>
                 </a>
-                <div className='flex gap-2 text-lg py-4 px-4 rounded-[40px] text-white bg-[#3AABE2] leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
+                <div className='flex gap-2 text-lg py-4 px-4 rounded-[40px] hover:bg-indigo-400 hover:drop-shadow-md transition duration-300 ease-in-out text-white bg-[#3AABE2] leading-normal font-medium font-montserrat max-lg:hidden wide:mr-24'>
                     <a href='/'>Sign in</a>
                     <span>/</span>
                     <a href='/'>Explore now</a>
