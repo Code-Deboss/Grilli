@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import { Nav } from '../components'
 
 const Hero = () => {
@@ -14,9 +15,11 @@ const Hero = () => {
                     Streamline the entire process of recording and meticulously tracking injuries, making it more efficient and user-friendly. Designed to simplify the task of injury documentation and monitoring, ensuring that you can effortlessly manage and keep a close eye on injury-related data.
                 </p>
                 <div className='flex justify-center mt-14 lg:justify-start'>
-                    <button type='button' className='text-white bg-[#3AABE2] font-meduim rounded-lg px-5 py-4 text-center hover:bg-indigo-400 hover:drop-shadow-md transition duration-300 ease-in-out'>
-                        Get Started
-                    </button>
+                    <Link href='/signup'>
+                        <button type='button' className='text-white bg-[#3AABE2] font-meduim rounded-lg px-5 py-4 text-center hover:bg-indigo-400 hover:drop-shadow-md transition duration-300 ease-in-out'>
+                            Get Started
+                        </button>
+                    </Link>
                 </div>
             </div>
             <div className='lg:w-1/2'>
