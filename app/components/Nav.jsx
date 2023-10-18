@@ -15,6 +15,7 @@ const Nav = () => {
                     >SafetySentry</h1>
                 </a>
                 <Button leftText='Sign in' rightText='Explore now' />
+                {/* <a href="/api/auth/login">Login</a> */}
                 <div className='hidden max-lg:block'>
                     <img src='/hamburger.svg' alt='hamburger icon' width={25} height={25} />
                 </div>
