@@ -15,7 +15,8 @@
     "next-auth": "^4.23.2",
     "react": "^18",
     "react-dom": "^18",
-    "react-icons": "^4.11.0"
+    "react-icons": "^4.11.0",
+    "sweetalert2": "^11.7.32"
   },
   "devDependencies": {
     "autoprefixer": "^10",

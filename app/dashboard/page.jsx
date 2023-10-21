@@ -1,9 +1,11 @@
 
+const Dashboard = () => {
+  const { user } = useAuth();
 
-const UserDashboard = () => {
   return (
-    <div>UserDashboard</div>
-  )
-}
-
-export default UserDashboard
+    <div>
+      <h1>Welcome, {user?.fullName}</h1>
+      {/* Dashboard content */}
+    </div>
+  );
+};

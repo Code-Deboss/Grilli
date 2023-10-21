@@ -23,7 +23,7 @@ const Hero = () => {
                 </div>
             </div>
             <div className='lg:w-1/2'>
-                <img className='ml-auto' src='/doctor.png' alt='doctor' />
+                <img className='ml-auto h-[45rem]' src='/health.jpg' alt='doctor' />
             </div>
         </div>
     </section>

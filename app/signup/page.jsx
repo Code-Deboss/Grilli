@@ -4,6 +4,7 @@ import Head from 'next/head';
 import Link from 'next/link';
 import { FaArrowLeft } from 'react-icons/fa';
 import { useState } from 'react';
+import Swal from 'sweetalert2';
 // import { withPageAuthRequired } from '@auth0/nextjs-auth0';
 
 const Signup = () => {
