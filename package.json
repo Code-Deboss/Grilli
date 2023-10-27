@@ -10,6 +10,7 @@
   },
   "dependencies": {
     "@auth0/nextjs-auth0": "^3.2.0",
+    "@kinde-oss/kinde-auth-nextjs": "github:kinde-oss/kinde-auth-nextjs",
     "dotenv": "^16.3.1",
     "next": "13.5.5",
     "next-auth": "^4.23.2",
