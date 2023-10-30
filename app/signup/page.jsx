@@ -5,6 +5,11 @@ import Link from 'next/link';
 import { FaArrowLeft } from 'react-icons/fa';
 import { useState } from 'react';
 import Swal from 'sweetalert2';
+import { signIn } from 'next-auth/react';
+import { useSession } from 'next-auth/react';
+
+
+
 // import { withPageAuthRequired } from '@auth0/nextjs-auth0';
 
 const Signup = () => {
@@ -35,6 +40,21 @@ const Signup = () => {
     setEmail(inputText);
   };
 
+  // const { signIn } = useSession();
+
+  const handleSubmit = async (event) => {
+    event.preventDefault();
+
+    const email = event.target.email.value;
+    const password = event.target.password.value;
+
+    await signIn('credentials', {
+      email,
+      password,
+    });
+  };
+
+
   return (
     <div className="h-screen w-screen flex justify-center items-center">
       <Head>
@@ -47,7 +67,7 @@ const Signup = () => {
           </div>
         </Link>
         <h1 className="text-2xl font-semibold mb-4 text-center">Sign Up</h1>
-        <form className="space-y-4">
+        <form className="space-y-4" onSubmit={handleSubmit}>
           <div className="grid items-center gap-1.5">
             <label htmlFor="fullName" className="font-medium text-gray-600">
               Full Name
