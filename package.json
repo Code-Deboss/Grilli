@@ -14,11 +14,15 @@
     "@kinde-oss/kinde-auth-nextjs": "github:kinde-oss/kinde-auth-nextjs",
     "antd": "^5.10.3",
     "dotenv": "^16.3.1",
+    "grommet": "^2.35.0-alpha.1",
+    "headlessui": "^0.0.0",
     "next": "13.5.5",
     "next-auth": "^4.23.2",
     "react": "^18",
+    "react-chartjs-2": "^5.2.0",
     "react-dom": "^18",
     "react-icons": "^4.11.0",
+    "styled-components": "^6.1.0",
     "sweetalert2": "^11.7.32"
   },
   "devDependencies": {
@@ -26,6 +30,6 @@
     "eslint": "^8",
     "eslint-config-next": "13.5.5",
     "postcss": "^8",
-    "tailwindcss": "^3"
+    "tailwindcss": "^3.3.5"
   }
 }
